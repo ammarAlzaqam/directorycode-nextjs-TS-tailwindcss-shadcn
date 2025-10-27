@@ -4,9 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <section className="home-layout-victor w-full min-h-dvh">
-      <div className="main-container pt-24 md:pt-48 pb-24 w-full mt-18 flex max-lg:flex-col items-center lg:items-start justify-between gap-22">
-        {/*//! Victor */}
-
+      <div className="main-container pt-24 md:pt-48 pb-24 w-full mt-18 flex max-lg:flex-col items-center lg:items-start justify-between gap-18">
         {/*//! Right side */}
         <div className="space-y-12">
           {/*//* text */}
@@ -15,11 +13,11 @@ export default function Home() {
               We Build Digital{" "}
               <span className="home-bg-victor">Experiences</span>
             </h1>
-            <h3 className="sub-title">
+            <h4 className="sub-title">
               Elevating brands through sophisticated web design, frictionless
               user experience (UX), and intelligent development for measurable
               growth.
-            </h3>
+            </h4>
           </div>
 
           {/*//* Buttons */}
